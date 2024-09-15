@@ -230,49 +230,49 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
       address: 'г. Санкт-Петербург, ул. Марата дом 15.',
       phone: '8 (812) 509-42-41',
       time: 'Ежедневно с 10.00 до 22.00',
-      images: ['../../assets/media/detail-slide-1.jpg', '../../assets/media/detail-slide-2.jpg', '../../assets/media/detail-slide-1.jpg']
+      images: ['../assets/media/detail-slide-1.jpg', '../assets/media/detail-slide-2.jpg', '../assets/media/detail-slide-1.jpg']
     },
     place2: {
       name: 'Название салона 2',
       address: 'г. Санкт-Петербург, ул. Марата дом 16.',
       phone: '8 (812) 509-42-41',
       time: 'Ежедневно с 10.00 до 22.00',
-      images: ['../../assets/media/detail-slide-1.jpg', '../../assets/media/detail-slide-2.jpg', '../../assets/media/detail-slide-1.jpg']
+      images: ['../assets/media/detail-slide-1.jpg', '../assets/media/detail-slide-2.jpg', '../assets/media/detail-slide-1.jpg']
     },
     place3: {
       name: 'Название салона 3',
       address: 'г. Санкт-Петербург, ул. Марата дом 17.',
       phone: '8 (812) 509-42-41',
       time: 'Ежедневно с 10.00 до 22.00',
-      images: ['../../assets/media/detail-slide-1.jpg', '../../assets/media/detail-slide-2.jpg', '../../assets/media/detail-slide-1.jpg']
+      images: ['../assets/media/detail-slide-1.jpg', '../assets/media/detail-slide-2.jpg', '../assets/media/detail-slide-1.jpg']
     },
     place4: {
       name: 'Название салона 4',
       address: 'г. Санкт-Петербург, ул. Марата дом 18.',
       phone: '8 (812) 509-42-41',
       time: 'Ежедневно с 10.00 до 22.00',
-      images: ['../../assets/media/detail-slide-1.jpg', '../../assets/media/detail-slide-2.jpg', '../../assets/media/detail-slide-1.jpg']
+      images: ['../assets/media/detail-slide-1.jpg', '../assets/media/detail-slide-2.jpg', '../assets/media/detail-slide-1.jpg']
     },
     place5: {
       name: 'Название салона 5',
       address: 'г. Санкт-Петербург, ул. Марата дом 19.',
       phone: '8 (812) 509-42-41',
       time: 'Ежедневно с 10.00 до 22.00',
-      images: ['../../assets/media/detail-slide-1.jpg', '../../assets/media/detail-slide-2.jpg', '../../assets/media/detail-slide-1.jpg']
+      images: ['../assets/media/detail-slide-1.jpg', '../assets/media/detail-slide-2.jpg', '../assets/media/detail-slide-1.jpg']
     },
     place6: {
       name: 'Название салона 6',
       address: 'г. Санкт-Петербург, ул. Марата дом 20.',
       phone: '8 (812) 509-42-41',
       time: 'Ежедневно с 10.00 до 22.00',
-      images: ['../../assets/media/detail-slide-1.jpg', '../../assets/media/detail-slide-2.jpg', '../../assets/media/detail-slide-1.jpg']
+      images: ['../assets/media/detail-slide-1.jpg', '../assets/media/detail-slide-2.jpg', '../assets/media/detail-slide-1.jpg']
     },
     place7: {
       name: 'Название салона 7',
       address: 'г. Санкт-Петербург, ул. Марата дом 21.',
       phone: '8 (812) 509-42-41',
       time: 'Ежедневно с 10.00 до 22.00',
-      images: ['../../assets/media/detail-slide-1.jpg', '../../assets/media/detail-slide-2.jpg', '../../assets/media/detail-slide-1.jpg']
+      images: ['../assets/media/detail-slide-1.jpg', '../assets/media/detail-slide-2.jpg', '../assets/media/detail-slide-1.jpg']
     }
   };
   var build = function build(element) {
@@ -296,8 +296,8 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
           checkZoomRange: true
         });
       };
-      var MyIconContentLayout = ymaps.templateLayoutFactory.createClass("<img img class=\"map__marker\" src = '../../assets/media/marker.svg' ></img > ");
-      var MyIconHoverContentLayout = ymaps.templateLayoutFactory.createClass("<img img class=\"map__marker\" src = '../../assets/media/marker-hover.svg' ></img > ");
+      var MyIconContentLayout = ymaps.templateLayoutFactory.createClass("<img img class=\"map__marker\" src = '../assets/media/marker.svg' ></img > ");
+      var MyIconHoverContentLayout = ymaps.templateLayoutFactory.createClass("<img img class=\"map__marker\" src = '../assets/media/marker-hover.svg' ></img > ");
       cardsCoords.forEach(function (marker) {
         var myPlacemark = new ymaps.Placemark(marker, {}, {
           iconLayout: MyIconContentLayout,
